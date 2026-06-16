@@ -1,0 +1,36 @@
+body{
+    margin : 0;
+    padding : 0;
+}
+.navbar{
+    background-color : hsl(232, 20%, 36%);
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    position:fixed;
+    z-index: 1000;
+ width: 100%;
+  
+}
+.links{
+  
+    
+}
+.links ul{
+    list-style-type : none;
+      display : flex;
+      gap:35px;
+
+  
+}
+.links li{
+   background-color : hsl(232, 28%, 21%);
+   border-radius : 5px;
+   padding:5px;
+   color:hsl(0, 0%, 3%)
+}
+.links li:hover{
+    background-color : hsl(0, 0%, 0%);
+    color : hsl(0, 0%, 100%);
+    cursor : pointer;
+}
