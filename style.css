@@ -1,6 +1,10 @@
-body{
+body
+{
     margin : 0;
     padding : 0;
+      background-color : hsl(231, 21%, 19%);
+      color:white;
+   
 }
 .navbar{
     background-color : hsl(232, 20%, 36%);
@@ -10,6 +14,7 @@ body{
     position:fixed;
     z-index: 1000;
  width: 100%;
+ padding: 0;
   
 }
 .links{
@@ -27,10 +32,10 @@ body{
    background-color : hsl(232, 28%, 21%);
    border-radius : 5px;
    padding:5px;
-   color:hsl(0, 0%, 3%)
+  
 }
 .links li:hover{
-    background-color : hsl(0, 0%, 0%);
-    color : hsl(0, 0%, 100%);
+    background-color : hsl(231, 49%, 28%);
+    color : hsl(220, 2%, 61%);
     cursor : pointer;
 }
