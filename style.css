@@ -39,3 +39,37 @@ body
     color : hsl(220, 2%, 61%);
     cursor : pointer;
 }
+
+.intro{
+    display : flex;
+ gap: 35px;
+   
+}
+.intro h1{
+    font-size : 50px;
+    color : hsl(220, 2%, 61%);
+}
+.intro p{
+    font-size : 20px;
+    color : hsl(220, 2%, 61%);
+}
+
+.cards-container{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+    padding : 20px;
+}
+.card{
+    background-color : hsl(232, 28%, 21%);
+    border-radius : 10px;
+    width : 300px;
+    margin : 20px;
+    padding : 20px;
+    box-shadow : 0 4px 8px rgba(0,0,0,0.2);
+}   
+.card :hover {
+    background-color : hsl(231, 49%, 28%);
+    color : hsl(220, 2%, 61%);
+    cursor : pointer;
+}
